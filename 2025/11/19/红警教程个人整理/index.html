@@ -1,0 +1,539 @@
+  <!DOCTYPE html>
+  <html lang="zh-CN"  
+      data-theme-mode="auto"
+  >
+  <head>
+  <meta charset="utf-8">
+  
+  
+  
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_4k4bc36ef96';window.REIMU_CONFIG.clipboard_tips = {"success":{"zh-CN":"复制成功 (*^▽^*)"},"fail":{"zh-CN":"复制失败 (ﾟ⊿ﾟ)ﾂ"},"copyright":{"enable":false,"count":50,"license_type":"by-nc-sa"}};window.REIMU_CONFIG.clipboard_tips.copyright.content = '本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！';window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'http://example.com';</script>
+  <title>
+    红警教程个人整理 | lv5 笔记
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish%3A400%2C400italic%2C700%2C700italic%7CNoto+Serif+SC%3A400%2C400italic%2C700%2C700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish%3A400%2C400italic%2C700%2C700italic%7CNoto+Serif+SC%3A400%2C400italic%2C700%2C700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
+    <link rel="preload" href="//at.alicdn.com/t/c/font_4552607_4k4bc36ef96.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="/css/loader.css">
+
+    <meta name="description" content="以下内容仅个人整理，如有疏漏和错误，欢迎指出。 本文章为 尼奈nine_official 专门版本，主播近期会直播玩《红色警戒》哦！具体时间安排欢迎关注主播捏！ 尼奈nine_official b站主页  lv5超能力者 祝公主玩得开心！  介绍命令与征服：红色警戒2 百度百科参考 红色警戒 游戏，属于命令与征服系列，是由Westwood制作、EA发行的一款即时战略游戏，于2000年9月28日发行">
+<meta property="og:type" content="article">
+<meta property="og:title" content="红警教程个人整理">
+<meta property="og:url" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/">
+<meta property="og:site_name" content="lv5 笔记">
+<meta property="og:description" content="以下内容仅个人整理，如有疏漏和错误，欢迎指出。 本文章为 尼奈nine_official 专门版本，主播近期会直播玩《红色警戒》哦！具体时间安排欢迎关注主播捏！ 尼奈nine_official b站主页  lv5超能力者 祝公主玩得开心！  介绍命令与征服：红色警戒2 百度百科参考 红色警戒 游戏，属于命令与征服系列，是由Westwood制作、EA发行的一款即时战略游戏，于2000年9月28日发行">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%B0%BC%E5%A5%88nine_official%E4%B8%BB%E9%A1%B5.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%BC%80%E5%BF%83%E8%A1%A8%E6%83%85.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8Dsteam%E7%89%88%E6%9C%AC.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E7%BA%A2%E8%AD%A62%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90-%E6%B3%A8%E6%84%8F%E4%BF%AE%E6%94%B9%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/ra2ol%E5%AE%98%E7%BD%91%E6%88%AA%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/ra2ol%E5%AE%89%E8%A3%85%E5%8C%85.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/ra2ol%E5%AE%89%E8%A3%85%E7%95%8C%E9%9D%A2.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0%E4%B8%8B%E8%BD%BD%E7%95%8C%E9%9D%A2%E6%88%AA%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E7%BA%A2%E8%AD%A63%E6%88%98%E7%BD%91-%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.png">
+<meta property="article:published_time" content="2025-11-19T11:25:32.000Z">
+<meta property="article:modified_time" content="2025-11-23T04:25:37.328Z">
+<meta property="article:author" content="lv5">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="联机">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%B0%BC%E5%A5%88nine_official%E4%B8%BB%E9%A1%B5.png">
+    <link rel="alternate" href="/atom.xml" title="lv5 笔记" type="application/atom+xml">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preload" as="style" onload="this.onload&#x3D;null;this.rel&#x3D;&#39;stylesheet&#39;" href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css" integrity="sha384-IfxC36XL&#x2F;toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei+Zx&#x2F;1oA&#x2F;0l8ysE" crossorigin="anonymous">
+    
+<script src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script>
+
+    
+<link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css" integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous">
+
+<meta name="generator" content="Hexo 8.1.1"></head>
+
+  <body>
+      <div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate">
+          <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+           M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg>
+      </div>
+      <div class="loading-word">少女祈祷中...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var loaderEl = document.getElementById('loader');
+    var startLoading = () => {
+      time = Date.now();
+      loaderEl.classList.remove("loading");
+    }
+    var hideLoader = () => {
+      document.body.style.overflow = 'auto';
+      loader.classList.add('loading');
+    };
+
+    var endLoading = () => {
+      if (!time) {
+        hideLoader();
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          hideLoader();
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    loaderEl.addEventListener('click', endLoading);
+  </script>
+<div id="copy-tooltip"></div>
+<div id="heatmap-tooltip"></div>
+
+
+    <div id="container">
+      <div id="wrap">
+        <div id="header-nav">
+  <nav id="main-nav" aria-label="Primary navigation">
+        <a class="main-nav-link-wrap" href="/">
+          <div class="main-nav-icon icon rotate">
+              &#xe62b;
+          </div>
+          <span class="main-nav-link">首页</span>
+        </span>
+        <a class="main-nav-link-wrap" href="/archives">
+          <div class="main-nav-icon icon rotate">
+              &#xe62b;
+          </div>
+          <span class="main-nav-link">归档</span>
+        </span>
+        <a class="main-nav-link-wrap" href="/about">
+          <div class="main-nav-icon icon rotate">
+              &#xe62b;
+          </div>
+          <span class="main-nav-link">关于</span>
+        </span>
+        <a class="main-nav-link-wrap" href="/friend">
+          <div class="main-nav-icon icon rotate">
+              &#xe62b;
+          </div>
+          <span class="main-nav-link">友链</span>
+        </span>
+    <a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
+  </nav>
+  <nav id="sub-nav" aria-label="Secondary navigation">
+      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅" aria-label="RSS 订阅" target="_blank"></a>
+  </nav>
+</div>
+<header id="header" aria-label="Site header">
+        <picture>
+        </picture>
+          <img  fetchpriority="high" src="/images/banner.webp" alt="红警教程个人整理">
+  <div id="header-outer">
+    <div id="header-title">
+          <span id="logo">
+            <h1 data-aos="slide-up">红警教程个人整理</h1>
+          </span>
+        <h2 id="subtitle-wrap" data-aos="slide-down">
+        </h2>
+    </div>
+  </div>
+</header>
+
+        <div id="content" aria-label="Page content"  class="sidebar-right" >
+          <aside id="sidebar" aria-label="Sidebar">
+  <div class="sidebar-wrapper-container sticky">
+  <div class="sidebar-wrapper">
+    <div class="sidebar-wrap" data-aos="fade-up">
+          <div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
+<div class="sidebar-toc-wrapper toc-div-class" >
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%98%E6%96%B9%E9%80%94%E5%BE%84"><span class="toc-number">2.1.</span> <span class="toc-text">官方途径</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A4%BE%E5%8C%BA%E9%80%94%E5%BE%84"><span class="toc-number">2.2.</span> <span class="toc-text">社区途径</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90%EF%BC%88%E6%9C%AC%E4%BA%BA%E6%B5%8B%E8%AF%95%E8%BF%87%EF%BC%8C%E6%B2%A1%E6%9C%89%E6%8A%A5%E6%AF%92%EF%BC%89"><span class="toc-number">2.2.1.</span> <span class="toc-text">网络下载资源（本人测试过，没有报毒）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%A2%E8%AD%A6%E6%88%98%E7%BD%91ra2ol"><span class="toc-number">2.2.2.</span> <span class="toc-text">红警战网ra2ol</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%A2%E8%AD%A63%E6%97%A5%E5%86%95%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E7%BA%A2%E8%AD%A63%E6%88%98%E7%BD%91%E5%AE%89%E8%A3%85"><span class="toc-number">3.</span> <span class="toc-text">红警3日冕安装以及红警3战网安装</span></a></li></ol>
+</div>
+</div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="lv5" class="lazyload">
+  <div class="sidebar-author-name">lv5</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div>
+    <div class="sidebar-state-number">1</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">2</div>
+  </div>
+</div>
+<div class="sidebar-social">
+</div>
+<div class="sidebar-menu">
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">首页</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">归档</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">关于</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="友链"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">友链</div>
+      </div>
+</div>
+</div>
+          <div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div>
+    </div>
+  </div>
+  <div class="sidebar-widget">
+  </div>
+  </div>
+</aside>
+
+          <section id="main" aria-label="Main content"><article id="post-红警教程个人整理" class="h-entry article" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner" data-aos="fade-up">
+    <div class="article-meta">
+      <div class="article-date">
+  <span class="article-date-link icon-calendar" data-aos="zoom-in">
+    <time datetime="2025-11-19T11:25:32.000Z" itemprop="datePublished">2025-11-19</time>
+    <time style="display: none;" id="post-update-time">2025-11-23</time>
+  </span>
+</div>
+
+      
+    </div>
+    
+    <div class="hr-line"></div>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+        <p>以下内容仅个人整理，如有疏漏和错误，欢迎指出。</p>
+<p>本文章为 尼奈nine_official 专门版本，主播近期会直播玩《红色警戒》哦！具体时间安排欢迎关注主播捏！</p>
+<p><a target="_blank" rel="noopener" href="https://space.bilibili.com/163653">尼奈nine_official b站主页</a></p>
+<p><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%B0%BC%E5%A5%88nine_official%E4%B8%BB%E9%A1%B5.png" alt="尼奈nine_official主页.png"></p>
+<p>lv5超能力者 祝公主玩得开心！</p>
+<p><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%BC%80%E5%BF%83%E8%A1%A8%E6%83%85.png" alt="开心表情.png"></p>
+<h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8D%EF%BC%9A%E7%BA%A2%E8%89%B2%E8%AD%A6%E6%88%922/12015095">命令与征服：红色警戒2 百度百科参考</a></p>
+<p>红色警戒 游戏，属于命令与征服系列，是由Westwood制作、EA发行的一款即时战略游戏，于2000年9月28日发行。</p>
+<p>游戏剧情接续《命令与征服：红色警戒》盟军结局。讲述了爱因斯坦杀死希特勒后，苏联失败与斯大林去世后，其建立欧亚大陆共产主义联盟的计划告终。在盟军支持下，苏联在总理亚历山大·罗曼诺夫（共产党员且有贵族血统）领导下重建，盟军本以为会开启东西方和平合作时代。但“尤里”成为罗曼诺夫首席顾问后，东西方关系恶化，苏联增强军事力量、加强对西方“盟友”的控制，世界再次濒临战争。 </p>
+<p>官方服务，West Wood Online 平台目前已经关闭，无法通过官方服务器联机。</p>
+<p>红警1的源代码目前已经开源，<a target="_blank" rel="noopener" href="https://github.com/OpenRA/ra2">github OpenRA&#x2F;ra2</a>，但是红警2的源代码据说已经丢失，基本不可能开源。</p>
+<h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><p>注意：“《命令与征服：红色警戒 3》起义” 不支持联机，仅有单机剧情。个人推荐安装《命令与征服：红色警戒 2 及尤里的复仇》和《命令与征服™：红色警戒 3》</p>
+<p>红色警戒3 起义的内容，可以在社区中下载到地图，运行在 红色警戒3 上游玩。</p>
+<h2 id="官方途径"><a href="#官方途径" class="headerlink" title="官方途径"></a>官方途径</h2><ul>
+<li><p>可以单独在steam上购买，红色警戒2和红色警戒3<br>  <a target="_blank" rel="noopener" href="https://store.steampowered.com/app/2229850/_2/">红色警戒2 steam 商店页面跳转</a><br>  <a target="_blank" rel="noopener" href="https://store.steampowered.com/app/17480/_3/">红色警戒3 原版 steam 商店页面跳转</a><br>  <a target="_blank" rel="noopener" href="https://store.steampowered.com/app/24800/_3/">红色警戒3 起义 steam 商店页面跳转</a></p>
+</li>
+<li><p>也可在steam中购买命令与征服合集，<a target="_blank" rel="noopener" href="https://store.steampowered.com/bundle/39394/_/">商店页面跳转</a></p>
+</li>
+</ul>
+<p><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%91%BD%E4%BB%A4%E4%B8%8E%E5%BE%81%E6%9C%8Dsteam%E7%89%88%E6%9C%AC.png" alt="命令与征服steam版本.png"></p>
+<h2 id="社区途径"><a href="#社区途径" class="headerlink" title="社区途径"></a>社区途径</h2><h3 id="网络下载资源（本人测试过，没有报毒）"><a href="#网络下载资源（本人测试过，没有报毒）" class="headerlink" title="网络下载资源（本人测试过，没有报毒）"></a>网络下载资源（本人测试过，没有报毒）</h3><p>红警3没有找到可靠的下载链接，有的在win11平台上报“请确认DX9是否安装”，还是使用steam版本比较好。</p>
+<ul>
+<li>网盘链接<ol>
+<li><a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1HNLTWOLawKRVqu_ei6KZYA?pwd=6afs">百度云盘 Ra2_Yuri</a><br> <strong>注意修改安装目录</strong><br> <img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E7%BA%A2%E8%AD%A62%E7%BD%91%E7%BB%9C%E8%B5%84%E6%BA%90-%E6%B3%A8%E6%84%8F%E4%BF%AE%E6%94%B9%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95.png" alt="红警2网络资源-注意修改安装目录.png"></li>
+</ol>
+</li>
+<li>原下载页面，<strong>注意鉴别下载地址</strong><ol>
+<li>红警2&amp;尤里复仇-完全版 <a target="_blank" rel="noopener" href="http://www.hsjj5.com/xiazai/13603.html">http://www.hsjj5.com/xiazai/13603.html</a></li>
+</ol>
+</li>
+</ul>
+<h3 id="红警战网ra2ol"><a href="#红警战网ra2ol" class="headerlink" title="红警战网ra2ol"></a>红警战网ra2ol</h3><p>注意：红警战网只能进行对战，没办法单独运行，没办法体验单机剧情。</p>
+<p><a target="_blank" rel="noopener" href="https://www.ra2ol.com/">红警战网ra2ol 官网跳转</a></p>
+<p>Ra2ol红警战网对战平台是一款由红警2爱好者开发的联机平台，此平台为全国的红警2爱好者提供了一个最便捷的在线联机对战环境。</p>
+<p>可以在 红警战网ra2ol 中下载红警2，联机平台中可以直接下载。</p>
+<p><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/ra2ol%E5%AE%98%E7%BD%91%E6%88%AA%E5%9B%BE.png" alt="ra2ol官网截图.png"><br><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/ra2ol%E5%AE%89%E8%A3%85%E5%8C%85.png" alt="ra2ol安装包.png"><br><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/ra2ol%E5%AE%89%E8%A3%85%E7%95%8C%E9%9D%A2.png" alt="ra2ol安装界面.png"><br><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E5%AF%B9%E6%88%98%E5%B9%B3%E5%8F%B0%E4%B8%8B%E8%BD%BD%E7%95%8C%E9%9D%A2%E6%88%AA%E5%9B%BE.png" alt="对战平台下载界面截图.png"></p>
+<h1 id="红警3日冕安装以及红警3战网安装"><a href="#红警3日冕安装以及红警3战网安装" class="headerlink" title="红警3日冕安装以及红警3战网安装"></a>红警3日冕安装以及红警3战网安装</h1><p><a target="_blank" rel="noopener" href="https://cor-games.com/">红色警戒3：日冕Mod 官方网站</a></p>
+<p>日冕官方总结的很完整，直接放日冕的教程</p>
+<ul>
+<li>下载页文档 <a target="_blank" rel="noopener" href="https://cor-games.com/download/">https://cor-games.com/download/</a></li>
+<li>日冕客户端程文档 <a target="_blank" rel="noopener" href="https://docs.qq.com/doc/DQmJ5bmZVbVF0blRX">https://docs.qq.com/doc/DQmJ5bmZVbVF0blRX</a></li>
+</ul>
+<p><img src="/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/%E7%BA%A2%E8%AD%A63%E6%88%98%E7%BD%91-%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.png" alt="红警3战网-安装程序.png"></p>
+
+    </div>
+    <footer class="article-footer">
+        <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag" title="教程">教程</a></li><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/%E8%81%94%E6%9C%BA/" rel="tag" title="联机">联机</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+</section>
+        </div>
+        <footer id="footer" aria-label="Site footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info">
+    <div>
+      <span class="icon-copyright"></span>
+        2020-2025
+      <span class="footer-info-sep rotate"></span>
+      lv5
+    </div>
+      <div>
+        基于&nbsp;<a href="https://hexo.io/" rel="noopener nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
+        Theme.<a href="https://github.com/D-Sketon/hexo-theme-reimu" rel="noopener nofollow noreferrer" target="_blank">Reimu</a>
+      </div>
+      <div>
+        <span class="icon-brush"></span>
+        835
+        &nbsp;|&nbsp;
+        <span class="icon-coffee"></span>
+        00:03
+      </div>
+      <div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv">总访问量&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv">总访客量&nbsp;<span id="busuanzi_value_site_uv"></span></span>
+      </div>
+  </div>
+</footer>
+
+          <div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div>
+        <div id="mask" class="hide"></div>
+      </div>
+      <nav id="mobile-nav" aria-label="Mobile navigation">
+  <div class="sidebar-wrap">
+        <div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
+<div class="sidebar-toc-wrapper toc-div-class" >
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%AE%89%E8%A3%85"><span class="toc-number">2.</span> <span class="toc-text">安装</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%98%E6%96%B9%E9%80%94%E5%BE%84"><span class="toc-number">2.1.</span> <span class="toc-text">官方途径</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A4%BE%E5%8C%BA%E9%80%94%E5%BE%84"><span class="toc-number">2.2.</span> <span class="toc-text">社区途径</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E4%B8%8B%E8%BD%BD%E8%B5%84%E6%BA%90%EF%BC%88%E6%9C%AC%E4%BA%BA%E6%B5%8B%E8%AF%95%E8%BF%87%EF%BC%8C%E6%B2%A1%E6%9C%89%E6%8A%A5%E6%AF%92%EF%BC%89"><span class="toc-number">2.2.1.</span> <span class="toc-text">网络下载资源（本人测试过，没有报毒）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%A2%E8%AD%A6%E6%88%98%E7%BD%91ra2ol"><span class="toc-number">2.2.2.</span> <span class="toc-text">红警战网ra2ol</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%A2%E8%AD%A63%E6%97%A5%E5%86%95%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E7%BA%A2%E8%AD%A63%E6%88%98%E7%BD%91%E5%AE%89%E8%A3%85"><span class="toc-number">3.</span> <span class="toc-text">红警3日冕安装以及红警3战网安装</span></a></li></ol>
+</div>
+</div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="lv5" class="lazyload">
+  <div class="sidebar-author-name">lv5</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div>
+    <div class="sidebar-state-number">1</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">2</div>
+  </div>
+</div>
+<div class="sidebar-social">
+</div>
+<div class="sidebar-menu">
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">首页</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">归档</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">关于</div>
+      </div>
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="友链"></a>
+        <div class="sidebar-menu-icon icon rotate">
+            &#xe62b;
+        </div>
+        <div class="sidebar-menu-link">友链</div>
+      </div>
+</div>
+</div>
+  </div>
+      <div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div>
+</nav>
+
+    </div>
+    
+<script src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js" integrity="sha384-3gT&#x2F;vsepWkfz&#x2F;ff7PpWNUeMzeWoH3cDhm&#x2F;A8jM7ouoAK0&#x2F;fP&#x2F;9bcHHR5kHq2nf+e" crossorigin="anonymous"></script>
+
+
+<script src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha384-J08i8An&#x2F;QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+  
+<script src="/js/aos.js"></script>
+
+  <script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', aosInit);
+    } else {
+      aosInit();
+    }
+  </script>
+
+
+<script src="/js/pjax_script.js" data-pjax></script>
+
+
+
+
+  
+<script src="https://npm.webcache.cn/mouse-firework@0.1.1/dist/index.umd.js" integrity="sha384-8LyaidD9GPxQQgLJO&#x2F;WRw&#x2F;O2h3BoNq&#x2F;ApI&#x2F;ecpvM6RsrCz2qP2ppBXUKihP4V&#x2F;2d" crossorigin="anonymous"></script>
+
+  <script>
+    if (!false || !window.matchMedia('(max-width: 768px)').matches) {
+      window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["var(--red-1)","var(--red-2)","var(--red-3)","var(--red-4)"],"number":20,"duration":[1200,1800],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}},{"shape":"circle","move":["diffuse"],"easing":"easeOutExpo","colors":["var(--red-0)"],"number":1,"duration":[1200,1800],"shapeOptions":{"radius":20,"alpha":[0.2,0.5],"lineWidth":6}}]}'));
+    }
+  </script>
+
+
+
+  
+<script src="https://npm.webcache.cn/live2d-widgets@0.9.0/autoload.js" integrity="sha384-poTN7wN&#x2F;SqNhQqo3jdFeX20ikddWeFGkUkDEzsKjgH&#x2F;ez8aQLn81oI0Cw6q5xNyB" crossorigin="anonymous"></script>
+
+
+
+<div id="lazy-script">
+  <div>
+      
+      
+      <script data-pjax>
+        window.REIMU_POST = {
+          author: "lv5",
+          title: "红警教程个人整理",
+          url: "http://example.com/2025/11/19/%E7%BA%A2%E8%AD%A6%E6%95%99%E7%A8%8B%E4%B8%AA%E4%BA%BA%E6%95%B4%E7%90%86/",
+          excerpt: "",
+          description: "",
+          stripContent: "以下内容仅个人整理，如有疏漏和错误，欢迎指出。 本文章为 尼奈nine_official 专门版本，主播近期会直播玩《红色警戒》哦！具体时间安排欢迎关注主播捏！ 尼奈nine_official b站主页  lv5超能力者 祝公主玩得开心！  介绍命令与征服：红色警戒2 百度百科参考 红色警戒 游戏，属于命令与征服系列，是由Westwood制作、EA发行的一款即时战略游戏，于2000年9月28日发行。 游戏剧情接续《命令与征服：红色警戒》盟军结局。讲述了爱因斯坦杀死希特勒后，苏联失败与斯大林去世后",
+          date: "Wed Nov 19 2025 19:25:32 GMT+0800",
+          updated: "Sun Nov 23 2025 12:25:37 GMT+0800",
+          cover: "/images/banner.webp",
+        };
+      </script>
+        
+<script src="/js/insert_highlight.js" data-pjax></script>
+
+      <script type="module" data-pjax>
+        const PhotoSwipeLightbox = (await safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe-lightbox.esm.min.js", "sha384-DiL6M/gG+wmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF/N6lrZi/")).default;
+        const initPswp = (gallery, children) => {
+          if (_$$(`${gallery} ${children}`).length > 0) {
+            new PhotoSwipeLightbox({
+              gallery,
+              children,
+              pswpModule: () => safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8+oTJ7m3DfYEWX1fu1scuS4+s")
+            }).init();
+          }
+        }
+        const pswp = () => {
+          initPswp('.article-entry', 'a.article-gallery-item');
+          initPswp('.article-gallery', 'a.article-gallery-item');
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script>
+        
+
+  </div>
+</div>
+
+
+  <script>
+    console.log(String.raw`%c 
+ ______     ______     __     __    __     __  __    
+/\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+\ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+ \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+  \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                  
+`,'color: #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.10.3' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+  </script>
+  
+
+
+  
+<script src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js" integrity="sha384-0M75wtSkhjIInv4coYlaJU83+OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id+S" crossorigin="anonymous" async></script>
+
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  }
+</script>
+
+
+
+
+
+  </body>
+  </html>
